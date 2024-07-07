@@ -1,5 +1,17 @@
 {
+    "name": "jayjay/php-google-login",
+    "autoload": {
+        "psr-4": {
+            "Jayjay\\PhpGoogleLogin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jayjay",
+            "email": "johnjuliusbaldia@gmail.com"
+        }
+    ],
     "require": {
-        "google/apiclient": "^2.0"
+        "google/apiclient": "2.0"
     }
 }

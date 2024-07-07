@@ -5,9 +5,9 @@ require_once 'vendor/autoload.php';
 session_start();
 
 // init configuration
-$clientID = '328613557058-2vlgubore5g2r1demrrua2o7isvl9n09.apps.googleusercontent.com';
-$clientSecret = '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';
-$redirectUri = 'http://localhost/YouTube/php-google-login/welcome.php';
+$clientID = '526613851152-6qq6tr1c3cv6qgcubkedjfl4iue34u2e.apps.googleusercontent.com';
+$clientSecret = '';
+$redirectUri = 'https://ics.pnm.edu.ph/welcome.php';
 
 // create Client Request to access Google API
 $client = new Google_Client();
@@ -19,8 +19,8 @@ $client->addScope("profile");
 
 // Connect to database
 $hostname = "localhost";
-$username = "root";
-$password = "";
-$database = "youtube-google-login";
+$username = "cdmicto_gadmin";
+$password = "YS0Q4Gbvp6aG";
+$database = "cdmicto_google";
 
 $conn = mysqli_connect($hostname, $username, $password, $database);
